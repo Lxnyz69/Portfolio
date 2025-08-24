@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LxnyzDan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Mobile Header with Logo (only visible on mobile) -->
+    <div class="mobile-header">
+        <div class="logo">LxnyzDan</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">LxnyzDan</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+                <li><a href="#projects" class="nav-link" data-page="projects">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="page active">
+        <div class="container">
+            <div class="hero">
+                <div class="profile-container">
+                    <img src="img/binigwe.jpg" alt="profile" class="profile-picture" />
+                </div>
+                <div class="greeting">Hello World! I'm</div>
+                <div class="name">Zildan Habibi</div>
+                <div class="typing-text">
+                    <span id="typed-text"></span>
+                    <span class="cursor"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Page -->
+    <section id="about" class="page">
+        <div class="container">
+            <div class="about-content">
+                <div class="profile-container">
+                    <img src="img/binigwe.jpg" alt="profile" class="profile-picture" />
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hello, my name is Zildan, I am a student from Indonesia, my hobby is playing games, and coding a little bit, I have been interested in coding since high school, and this is my first website, of course, with a little help from AI.</p>
+                    <p>I'm still a beginner, so please guide me 🙇🏿</p>
+                </div>
+            </div>
+
+            <div class="skills-section">
+                <h2 class="skills-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3 class="skill-name">HTML</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;"></div>
+                        </div>
+                        <div class="skill-percentage">80%</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3 class="skill-name">CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%;"></div>
+                        </div>
+                        <div class="skill-percentage">70%</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h3 class="skill-name">JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%;"></div>
+                        </div>
+                        <div class="skill-percentage">65%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Page -->
+    <section id="projects" class="page">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 2rem; color: var(--red);">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="img/bg1.jpg" alt="Modern e-commerce website dashboard with analytics and product management interface" class="project-image" />
+                    <div class="project-content">
+                        <h3 class="project-title">Website For School</h3>
+                        <p class="project-description">A competition to create a website for the school, With HTML, CSS, JS.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="img/bg2.jpg" alt="Social media application with user profiles, messaging features and content feed" class="project-image" />
+                    <div class="project-content">
+                        <h3 class="project-title">Esport Hub</h3>
+                        <p class="project-description">Competition to create an Esport registration website, using HTML, CSS, JS.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Coming soon text -->
+            <div class="coming-soon">
+                Coming soon ;)
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                © 2025 LxnyzDan. All rights reserved.
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/Lxnyz69" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/share/1BAGm6us6j/" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/mzildan69?igsh=MWVqYW1mbHdnbzU3Zg==" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
